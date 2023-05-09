@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import { OrbitControls } from "@react-three/drei";
-import { useLoader } from "@react-three/fiber";
+import { useLoader, Canvas, useFrame } from "@react-three/fiber";
 import { TextureLoader } from "three/src/loaders/TextureLoader";
 import texture from "../textures/moon.jpg";
 
