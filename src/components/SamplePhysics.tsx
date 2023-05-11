@@ -21,7 +21,7 @@ const SamplePhysics = () => {
         return physicsWorld;
     };
 
-    return <div></div>;
+    return <div>heyy</div>;
 };
 
 export default SamplePhysics;
